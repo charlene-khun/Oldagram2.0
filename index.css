@@ -1,0 +1,139 @@
+html, body {
+    /* Modified from margin: 0 */
+    margin: 0 auto;
+    padding: 0;
+    /* Original had no width */
+    width: 375px;
+}
+
+
+header
+{
+    padding: 10px 10px;
+    display: flex;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.logo
+{
+    width: 127px;
+}
+
+.container
+{
+    width: 100%;
+}
+
+.profile
+{
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    padding: 8px 6px;
+}
+
+.user
+{
+    float: right;
+    margin: 10px;
+}
+
+section
+{
+    display: flex;
+}
+
+p
+{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.info p
+{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+}
+
+.info .name
+{
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.info .place
+{
+    line-height: 0.8;
+}
+
+/* .vincent
+{
+    margin: 15px 10px;   
+}*/
+
+/* .vangoghpost
+{
+    width: 100%;
+    margin: 10px 0;
+    
+}*/
+
+.post-image
+{
+    width: 100%;
+    margin: 10px 0;
+}
+
+footer
+{
+    margin: 0px 4px;
+}
+
+footer img
+{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    margin-left: -5px;
+}
+
+button
+{
+    background: white;
+    border: none;
+}
+
+button:hover, button:focus
+{
+    opacity: 0.6;
+}
+
+.likes
+{
+    margin: 5px 2px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.caption
+{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+span
+{
+    font-weight: 700;
+}
+
+#post-container
+{
+    width: 375px;
+}
+
+
